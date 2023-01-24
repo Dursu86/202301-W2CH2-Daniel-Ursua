@@ -8,8 +8,8 @@ function strictEquals(a, b) {
   else {
     result = false;
   }
-  console.log(result);
+  console.log(`Si comparamos ${a} y ${b} nuestra función devuelve ${result}`);
   return result;
 }
-
-export default strictEquals;
+strictEquals(0, -0);
+//export default strictEquals;
