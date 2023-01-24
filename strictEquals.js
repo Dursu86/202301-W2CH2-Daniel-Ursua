@@ -12,4 +12,4 @@ function strictEquals(a, b) {
   return result;
 }
 strictEquals(0, -0);
-//export default strictEquals;
+export default strictEquals;
